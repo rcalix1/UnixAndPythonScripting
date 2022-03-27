@@ -1,0 +1,15 @@
+>>git clone https://...
+>>git pull
+
+
+
+Usual sequence:
+>>git status
+>>git add -A
+>>git commit -m "made this change"
+>>git push
+
+
+
+Other (if in VI):
+escape    :wq       enter
