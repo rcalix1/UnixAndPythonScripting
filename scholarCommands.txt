@@ -1,0 +1,9 @@
+The browser issue: https://www.rcac.purdue.edu/knowledge/scholar/faq/jobs/errors/firefoxalreadyrunning
+
+If you ever had a Thinlinc session with Firefox on Scholar overnight, it got killed during nightly reboots, 
+so Firefox did not have a chance to clean its defunct lock files. 
+Running 
+
+>> unlock-firefox
+
+removes those files and a new instance can start.
