@@ -1,3 +1,9 @@
+
+## Unable to set NAT network adapter name 
+
+* https://www.youtube.com/watch?v=Hndr4EG_zOQ
+
+
 ## If UUID Error
 
 A universally unique identifier (UUID) is a string of characters used to identify a specific virtual disk. 
