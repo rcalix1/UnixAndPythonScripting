@@ -27,5 +27,16 @@
 * Evi Nemeth became known as "the mother of system administration". She hired many students to work as sys admins supporting the college of engineering at the University of Colorado.
 * Their job: keep unix and the IT operation running, and improve it.
 * By 1990, UNIX was a server solution. A solution for PC was needed.
+* At this time, a new PC version of UNIX was presented called BSD. Everything looked promising.
+* Unfortunately, in 1992, AT&T filed a lawsuit saying that UNIX belonged to them and that companies were copying their code.
+* By 1995 the case was settled. Out 18,000 files of UNIX, 3 were found to be original source code. They were removed.
+* UNIX could continue freely. Unfortunately, during this period of uncertainty, many switched to Windows.
+* During this time, an undergrad student at Helsinki University named Linus Torvalds had been writing his own UNIX clone.
+* By 1994, several versions of Linux were available.
+* Microsft first released Windows NT in 1993.
+* Becasue of the AT&T lawsuit, many companies adopted Windows for "time sharing" during the 1990's.
+* By 2000, Linux/UNIX was not doing great.
+* Once the internet and e-commerce took off, the advantages of Linux/Unix was clear. Many web servers ran apache and linux and we cheaper.
+* Today, Linux is doing well. Mac OS X, for example, is based on UNIX.
 * 
   
