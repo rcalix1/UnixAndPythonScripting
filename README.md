@@ -23,3 +23,9 @@
 * Around 1980, TCP/IP sockets were added.
 * By 1985, science calculations were now being performed and email was used on university campuses. 
 * The rise of a new profession "System Admin" was also deing defined.
+* Sys Admin professions start at universities supporting UNIX by students
+* Evi Nemeth became known as "the mother of system administration". She hired many students to work as sys admins supporting the college of engineering at the University of Colorado.
+* Their job: keep unix and the IT operation running, and improve it.
+* By 1990, UNIX was a server solution. A solution for PC was needed.
+* 
+  
