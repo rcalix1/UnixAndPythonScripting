@@ -15,4 +15,11 @@
 * In the summer on 1969, Ken Thompson re-wrote the code for the OS, the shell, the editor, and the assembler. The goal was to make it look more like an OS.
 * In 1970 the original UNIX (or UNICS) had ideas from Multics but was only for single use (no time sharing).
 * By 1971, UNIX had incorporated commands like: cat, as (assembler), chdir, chmod, chown, cmp (compare 2 files), cp, date, dc (desk calculator), du (disk usage).
-* By 1973, the idea of "pipe" had been introduced. Also, the "C" language had been invented at Bell Labs. 
+* By 1973, the idea of "pipe" had been introduced. Also, the "C" language had been invented at Bell Labs.
+* The "pipe" was on of the first powerful use cases of UNIX.
+* In 1973, Ken and Dennis submitted their paper at the ACM symposyum in the IBM auditorium. Their presentation was a success and people started to want UNIX.
+* Because of legal contracts with the government, AT&T and Bell Labs could not sell UNIX. And people could get it under license.
+* People at universities started modifying it and adding capabilities.
+* Around 1980, TCP/IP sockets were added.
+* By 1985, science calculations were now being performed and email was used on university campuses. 
+* The rise of a new profession "System Admin" was also deing defined.
