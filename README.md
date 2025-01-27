@@ -67,7 +67,14 @@
 * Special case: 4) s -> SETUID
 * Access classes: 1) user (u), 2) group (g), other (o)
 * $ chmod u+w file1.txt
-* 
+
+## Quiz
+* Using numeric access modes convert from this:
+* -rwxr--rw- 1 dummy2 seed 0 Jan 27 13:48 test1.txt
+* to
+* -rwxrwxrwx 1 dummy2 seed 0 Jan 27 13:48 test1.txt
+* Your answer should look like this:
+* $  chmod some_number test1.txt
   
 
 
