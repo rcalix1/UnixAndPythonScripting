@@ -59,9 +59,12 @@
 * b) make the file word readable
 * c) make smith a member of the physics group (this one)
 
-## Commands
+## Access Control
 
 * chown and chgrp
+* "File Modes" -> file protection flags
+* We have 3 tyopes of access: 1) r -> read, 2) w -> write, and 3) x -> execute
+* Special case: 4) s -> SETUID
 * 
   
 
