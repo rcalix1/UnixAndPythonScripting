@@ -66,7 +66,7 @@
 * We have 3 tyopes of access: 1) r -> read, 2) w -> write, and 3) x -> execute
 * Special case: 4) s -> SETUID
 * Access classes: 1) user (u), 2) group (g), other (o)
-* >> chmod u+w file1.txt
+* $ chmod u+w file1.txt
 * 
   
 
