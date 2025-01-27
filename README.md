@@ -40,3 +40,29 @@
 * Today, Linux is doing well. Mac OS X, for example, is based on UNIX.
 * 
   
+## The UNIX way
+
+* Files are central to UNIX
+* Everything in Linux is a File
+* File System (Directory of files)
+* Root of the File System is "/"
+* Security: a) file ownership and b) access control
+* Ownership -> In Linux, files have 2 owners which 1) user and 2) group
+* For example:
+* -rwxrwxr-x 1 seed physics  59 Jan 15 14:40 HelloWorld.py
+* Example:
+* Smith is in the "Chem" group
+* smith needs access to file in the "physics" group
+* how do you give her access?
+* Options:
+* a) make copies of the files
+* b) make the file word readable
+* c) make smith a member of the physics group (this one)
+
+## Commands
+
+* chown and chgrp
+* 
+  
+
+
