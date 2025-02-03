@@ -105,6 +105,14 @@
 * day-of-month - > numeric day within a month -> 1-31
 * month -> month of the year -> 1-12
 * weekday -> day of the week - > Range: 0-6 (0 = sunday)
+* Example 1:
+* 0,15,30,45 * * * * echo date
+* --> displays date every 15 minutes
+* An entry in any of these fields (e.g. minutes, hours, etc.) can be a single number,
+* a pair of numbers separated by dash (i.e. range), a comma separated list of numbers,
+* or an asterisk
+* An asterisk (*) is a wild card that represents all valid values for that field
+* In the crontab you can use "##" to comment out a line
 * 
 
 
