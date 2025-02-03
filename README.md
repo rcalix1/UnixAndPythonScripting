@@ -76,5 +76,33 @@
 * Your answer should look like this:
 * $  chmod some_number test1.txt
   
+## Cron
+* Task Scheduling
+* crontab
+* Periodic program execution
+* Use cases:
+* back up files at night
+* run scripts
+* crontab -> stands for "cron table"
+* cron files are stored in /var/
+* crontab entries direct cron to run commands at regular intervals
+
+## Cron Syntax
+
+* the cron file uses "one-line" entries to run tasks
+* And each one of these entries has the following format:
+* Format
+* minutes hours day-of-month month weekday command
+* where the command is anything you could write on the terminal
+* 
+
+
+
+
+
+
+
+
+
 
 
