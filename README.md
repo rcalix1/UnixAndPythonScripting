@@ -86,14 +86,25 @@
 * crontab -> stands for "cron table"
 * cron files are stored in /var/
 * crontab entries direct cron to run commands at regular intervals
+* To start cron do:
+* $ crontab -e
+* select the editor such as"nano"
+* 
 
 ## Cron Syntax
 
 * the cron file uses "one-line" entries to run tasks
 * And each one of these entries has the following format:
-* Format
+* Format:
 * minutes hours day-of-month month weekday command
 * where the command is anything you could write on the terminal
+* the first 5 fields specify the times at which "cron" should execute the command
+* Description of the fields:
+* minutes -> minutes after the hour -> Range: 0-59
+* hours -> hours of the day -> Range: 0-23 (0 = midnight)
+* day-of-month - > numeric day within a month -> 1-31
+* month -> month of the year -> 1-12
+* weekday -> day of the week - > Range: 0-6 (0 = sunday)
 * 
 
 
