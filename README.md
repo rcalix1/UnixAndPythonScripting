@@ -113,6 +113,16 @@
 * or an asterisk
 * An asterisk (*) is a wild card that represents all valid values for that field
 * In the crontab you can use "##" to comment out a line
+* Example 2:
+* Anomaly detection system
+* collect data with netstat, tcpdump, and then look for string using python
+* Example 3:
+* 0,10,20,30,40,50 7-18 * * *  ./a.exe
+* runs a.exe every 10 minutes from 7am to 6pm daily
+* Example 4:
+* 0 0 * * *  find / -name *.c
+* runs the find command at midnight
+* Example 5:
 * 
 
 
