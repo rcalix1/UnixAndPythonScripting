@@ -145,7 +145,30 @@
 * 2 ..... refers to the second file descriptor of a process. Which is "stderr"
 * ">" ..... means redirection
 * &1  .....refers to first file descriptor of a process. Which is "stdout"
+
+## Discarding
+
+* command 2>&1 > /dev/null
+
+## Cron Examples
+
+* Example 8
+* 30 11 31 12 * /usr/bin/wall % Happy New Year!
+* Runs the wall command at 11:30 am on december 31 wishing everyone a happy new year
+* Example 9
+* $ * * 1 1 1 sh test.sh
+* Day of the week and day of the month are "Or"ed
+* if both are filled in , the entry is run on that day of the month
+* and on matching day of the week
+* therefore, this entry would run January 1 and every monday
+* Example 10
+* 0 1 * * * /bin/sh /var/adm/daily.sh  2>&1  |  mail root
+* run daily script every morning at 1 am
+* Example 11
+* 0 2 * * 1 /bin/sh /var/adm/weekly.sh 2>&1  |  mail seed
+* run weekly script every monday at 2 am and send results to seed
 * 
+
 
 
 
