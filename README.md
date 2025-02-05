@@ -123,7 +123,22 @@
 * 0 0 * * *  find / -name *.c
 * runs the find command at midnight
 * Example 5:
-* 
+* 0 4 * * * sh a.sh
+* runs a shell script every day at 4 am
+* Example 6:
+* 30 3 1 * * python backup.py
+* Runs script at 3:30 am on the first day of each month
+* Example 7:
+* 30 2 * * 0,6  sh test.sh
+* Runs the script at 2:30 am on sunday and saturday
+
+## Output Handling
+
+1) Redirecting
+2) piping
+3) discarding
+
+
 
 
 
