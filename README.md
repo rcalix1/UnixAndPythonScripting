@@ -139,7 +139,13 @@
 3) discarding
 
 
+## Redirecting to a file
 
+* command 2>&1 > file.txt
+* 2 ..... refers to the second file descriptor of a process. Which is "stderr"
+* ">" ..... means redirection
+* &1  .....refers to first file descriptor of a process. Which is "stdout"
+* 
 
 
 
